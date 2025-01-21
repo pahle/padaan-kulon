@@ -18,11 +18,11 @@ const dmSans = DM_Sans({
 
 export const metadata = {
   title: {
-    template: '%s - DeceptiConf',
-    default: 'DeceptiConf - A community-driven design conference',
+    template: '%s - Padaan Kulon',
+    default: 'Padaan Kulon - KKN AB.82.066 UPN “Veteran” Yogyakarta',
   },
   description:
-    'At DeceptiConf you’ll learn about the latest dark patterns being developed to trick even the smartest visitors, and you’ll learn how to deploy them without ever being detected.',
+    'Padaan Kulon - KKN AB.82.066 UPN “Veteran” Yogyakarta adalah sebuah kelompok Kuliah Kerja Nyata (KKN) yang berada di Padukuhan Pada Kulon, Kalurahan Banjarharjo, Kapanewon Kalibawang, Kabupaten Kulon Progo. Kelompok ini terdiri dari mahasiswa  Universitas Pembangunan Nasional “Veteran” Yogyakarta yang bergerak dalam bidang pengabdian masyarakat.',
 }
 
 export default function RootLayout({ children }) {
