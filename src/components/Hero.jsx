@@ -10,19 +10,19 @@ export function Hero() {
         <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
           <h1 className="font-display text-5xl font-bold tracking-tighter text-blue-600 sm:text-7xl">
             <span className="sr-only">DeceptiConf - </span>
-            Selamat Datang di Website Dukuh Padaan Kulon
+            Selamat Datang di Website Padukuhan Padaan Kulon
           </h1>
           <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-blue-900">
             <p>
-              Sumber informasi terkini seputar Dukuh Padaan Kulon. Melalui
+              Sumber informasi terkini seputar Padukuhan Padaan Kulon. Melalui
               website ini, Anda dapat mengetahui berbagai informasi terkait
-              Dukuh Padaan Kulon, seperti potensi desa, kegiatan masyarakat, dan
+              Padukuhan Padaan Kulon, seperti potensi desa, kegiatan masyarakat, dan
               lain sebagainya.
             </p>
             <p>
               Kami berkomitmen untuk memberikan informasi yang akurat dan
               terpercaya, demi mendukung kemajuan dan kesejahteraan masyarakat
-              Dukuh Padaan Kulon.
+              Padukuhan Padaan Kulon.
             </p>
           </div>
           <Button href="#" className="mt-10 w-full sm:hidden">
@@ -30,7 +30,7 @@ export function Hero() {
           </Button>
           <dl className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
-              ['Dukuh', 'Padaan Kulon'],
+              ['Padukuhan', 'Padaan Kulon'],
               ['Kalurahan', 'Banjarharjo'],
               ['Kapanewon', 'Kalibawang'],
               ['Kabupaten', 'Kulon Progo'],

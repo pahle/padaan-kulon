@@ -25,10 +25,13 @@ import rinaldoBeynonImage from '@/images/avatars/rinaldo-beynon.jpg'
 import ronniCantadoreImage from '@/images/avatars/ronni-cantadore.jpg'
 import stevenMchailImage from '@/images/avatars/steven-mchail.jpg'
 import waylonHydenImage from '@/images/avatars/waylon-hyden.jpg'
+import rt19Image from '@/images/avatars/rt-19.jpeg'
+import rt20Image from '@/images/avatars/rt-20.jpeg'
+import rt21Image from '@/images/avatars/rt-21.jpeg'
 
 const days = [
   {
-    name: 'Perangkat Dukuh',
+    name: 'Struktur Padukuhan',
     date: '2025',
     dateTime: '2022-04-04',
     speakers: [
@@ -40,17 +43,17 @@ const days = [
       {
         name: 'Jaquelin Isch',
         role: 'RT 19',
-        image: jaquelinIschImage,
+        image: rt19Image,
       },
       {
         name: 'Dianne Guilianelli',
         role: 'RT 20',
-        image: dianneGuilianelliImage,
+        image: rt20Image,
       },
       {
         name: 'Ronni Cantadore',
         role: 'RT 21',
-        image: ronniCantadoreImage,
+        image: rt21Image,
       },
       {
         name: 'Erhart Cockrin',
