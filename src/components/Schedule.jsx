@@ -41,7 +41,7 @@ export function Schedule() {
           <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
             Administrasi Penduduk
           </h2>
-          <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
+          <p className="mt-4 font-display text-lg sm:text-2xl tracking-tight text-blue-900">
             Data statistik penduduk untuk berbagai kategori.
           </p>
         </div>

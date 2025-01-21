@@ -12,7 +12,7 @@ export function Hero() {
             <span className="sr-only">DeceptiConf - </span>
             Selamat Datang di Website Padukuhan Padaan Kulon
           </h1>
-          <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-blue-900">
+          <div className="mt-6 space-y-6 font-display text-lg sm:text-2xl tracking-tight text-blue-900">
             <p>
               Sumber informasi terkini seputar Padukuhan Padaan Kulon. Melalui
               website ini, Anda dapat mengetahui berbagai informasi terkait

@@ -116,7 +116,7 @@ export function Speakers() {
           >
             Struktur Organisasi
           </h2>
-          <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
+          <p className="mt-4 font-display text-lg sm:text-2xl tracking-tight text-blue-900">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
             facilis eius qui dolorem facere eum quo, corrupti perspiciatis
             itaque illum.

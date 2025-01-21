@@ -19,7 +19,7 @@ export default function Home() {
             <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
               Sambutan Bapak Dukuh
             </h2>
-            <div className="mt-4 flex flex-col font-display text-2xl tracking-tight text-blue-900">
+            <div className="mt-4 flex flex-col font-display text-lg sm:text-2xl tracking-tight text-blue-900">
               <div>
                 <p className="max-w-[] font-display">
                   <span className="text-3xl font-bold">&ldquo;</span>
@@ -100,7 +100,7 @@ export default function Home() {
             <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
               Kebudayaan Desa
             </h2>
-            <div className="mt-4 font-display text-2xl tracking-tight text-blue-900">
+            <div className="mt-4 font-display text-lg sm:text-2xl tracking-tight text-blue-900">
               <h3 className="text-3xl font-bold">Ndolalak Munggang</h3>
               <p className="mt-4">
                 Ndolalak Munggang adalah kesenian tari yang berasal dari
@@ -164,7 +164,7 @@ export default function Home() {
             <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
               Potensi Desa
             </h2>
-            <div className="mt-4 font-display text-2xl tracking-tight text-blue-900">
+            <div className="mt-4 font-display text-lg sm:text-2xl tracking-tight text-blue-900">
               <h3 className="text-3xl font-bold">Durian & Gula Merah</h3>
               <p className="mt-4">
                 Desa Padaan Kulon memiliki potensi unggulan dalam hasil
