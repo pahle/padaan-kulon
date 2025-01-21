@@ -38,9 +38,10 @@ export default function Home() {
                 berada di sini.
               </p>
             </div>
-            <Button href="#" className="mt-10 w-full sm:hidden">
-              Hubungi Kami
+            <Button className="bg-green-600 hover:bg-green-500 mt-10 w-full sm:hidden" href="/">
+              Dukuh
             </Button>
+
             <dl className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
               {[
                 ['Padukuhan', 'Padaan Kulon'],
