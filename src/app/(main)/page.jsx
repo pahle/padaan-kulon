@@ -31,12 +31,7 @@ export default function Home() {
                   informasi publik, pelayanan publik dan kegiatan perekonomian
                   di dukuh, guna mewujudkan dukuh Kersik sebagai dukuh wisata yang
                   berkelanjutan, adaptasi dan mitigasi terhadap perubahan iklim
-                  serta menjadi dukuh yang mandiri. <br />
-                  Terima kasih kepada semua pihak yang telah banyak memberi
-                  dukungan dan kontribusi baik berupa tenaga, pikiran dan
-                  semangat, terkhusus kepada Pertamina Hulu Kalimantan Timur
-                  (PHKT) dengan bantuan CSRnya sehingga website ini dapat
-                  terealisasi.
+                  serta menjadi dukuh yang mandiri.
                   <span className="text-3xl font-bold">&rdquo;</span>
                 </p>
               </div>
