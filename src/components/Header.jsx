@@ -25,7 +25,7 @@ export function Header() {
           </div>
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-          <Button className="bg-green-600 hover:bg-green-500" href="#">KKN</Button>
+          <Button className="bg-blue-600 hover:bg-blue-500" href="/kkn">KKN</Button>
         </div>
       </Container>
     </header>

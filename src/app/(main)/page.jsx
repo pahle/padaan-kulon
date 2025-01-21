@@ -6,10 +6,12 @@ import { Sponsors } from '@/components/Sponsors'
 import { Container } from '@/components/Container'
 import { BackgroundImage } from '@/components/BackgroundImage'
 import Image from 'next/image'
+import { Header } from '@/components/Header'
 
 export default function Home() {
   return (
     <>
+      <Header />
       <Hero />
       <section id="sambutan" aria-label="Sambutan" className="py-20 sm:py-32">
         <Container className="relative z-10">
@@ -23,13 +25,13 @@ export default function Home() {
                   <span className="text-3xl font-bold">&ldquo;</span>
                   <strong>Assalamu Alaikum Warohmatullahi Wabarakatu.</strong>
                   <br />
-                  Website ini hadir sebagai wujud transformasi desa Kersik
-                  menjadi desa yang mampu memanfaatkan teknologi informasi dan
+                  Website ini hadir sebagai wujud transformasi dukuh Kersik
+                  menjadi dukuh yang mampu memanfaatkan teknologi informasi dan
                   komunikasi, terintegrasi kedalam sistem online. Keterbukaan
                   informasi publik, pelayanan publik dan kegiatan perekonomian
-                  di desa, guna mewujudkan desa Kersik sebagai desa wisata yang
+                  di dukuh, guna mewujudkan dukuh Kersik sebagai dukuh wisata yang
                   berkelanjutan, adaptasi dan mitigasi terhadap perubahan iklim
-                  serta menjadi desa yang mandiri. <br />
+                  serta menjadi dukuh yang mandiri. <br />
                   Terima kasih kepada semua pihak yang telah banyak memberi
                   dukungan dan kontribusi baik berupa tenaga, pikiran dan
                   semangat, terkhusus kepada Pertamina Hulu Kalimantan Timur
@@ -65,13 +67,13 @@ export default function Home() {
                   <span className="text-3xl font-bold">&ldquo;</span>
                   <strong>Assalamu Alaikum Warohmatullahi Wabarakatu.</strong>
                   <br />
-                  Website ini hadir sebagai wujud transformasi desa Kersik
-                  menjadi desa yang mampu memanfaatkan teknologi informasi dan
+                  Website ini hadir sebagai wujud transformasi dukuh Kersik
+                  menjadi dukuh yang mampu memanfaatkan teknologi informasi dan
                   komunikasi, terintegrasi kedalam sistem online. Keterbukaan
                   informasi publik, pelayanan publik dan kegiatan perekonomian
-                  di desa, guna mewujudkan desa Kersik sebagai desa wisata yang
+                  di dukuh, guna mewujudkan dukuh Kersik sebagai dukuh wisata yang
                   berkelanjutan, adaptasi dan mitigasi terhadap perubahan iklim
-                  serta menjadi desa yang mandiri. <br />
+                  serta menjadi dukuh yang mandiri. <br />
                   Terima kasih kepada semua pihak yang telah banyak memberi
                   dukungan dan kontribusi baik berupa tenaga, pikiran dan
                   semangat, terkhusus kepada Pertamina Hulu Kalimantan Timur
