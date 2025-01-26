@@ -160,7 +160,7 @@ export function SpeakersAlternate() {
           >
             Anggota Kelompok
           </h2>
-          <p className="mt-4 font-display text-2xl tracking-tight text-green-900">
+          <p className="mt-4 text-justify font-display text-lg tracking-tight text-green-900 sm:text-left sm:text-2xl">
             Tak kenal maka tak sayang, jadi kenalan dulu yuk! Kami dari kelompok
             KKN AB.82.066 UPN “Veteran” Yogyakarta, datang ke Padukuhan Padaan
             Kulon dengan semangat berbagi dan belajar bersama. Anggota kelompok

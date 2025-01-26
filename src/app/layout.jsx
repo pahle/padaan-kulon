@@ -1,5 +1,6 @@
 import { DM_Sans, Inter } from 'next/font/google'
 import clsx from 'clsx'
+import 'leaflet/dist/leaflet.css';
 
 import '@/styles/tailwind.css'
 

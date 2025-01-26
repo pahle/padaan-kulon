@@ -12,12 +12,12 @@ export function Hero() {
             <span className="sr-only">DeceptiConf - </span>
             Selamat Datang di Website Padukuhan Padaan Kulon
           </h1>
-          <div className="mt-6 space-y-6 font-display text-lg sm:text-2xl tracking-tight text-blue-900">
+          <div className="mt-6 space-y-6 text-justify font-display text-lg tracking-tight text-blue-900 sm:text-left sm:text-2xl">
             <p>
               Sumber informasi terkini seputar Padukuhan Padaan Kulon. Melalui
               website ini, Anda dapat mengetahui berbagai informasi terkait
-              Padukuhan Padaan Kulon, seperti potensi desa, kegiatan masyarakat, dan
-              lain sebagainya.
+              Padukuhan Padaan Kulon, seperti potensi desa, kegiatan masyarakat,
+              dan lain sebagainya.
             </p>
             <p>
               Kami berkomitmen untuk memberikan informasi yang akurat dan
@@ -25,7 +25,12 @@ export function Hero() {
               Padukuhan Padaan Kulon.
             </p>
           </div>
-          <Button className="bg-blue-600 hover:bg-blue-500 mt-10 w-full sm:hidden" href="/kkn">KKN</Button>
+          <Button
+            className="mt-10 w-full bg-blue-600 hover:bg-blue-500 sm:hidden"
+            href="/kkn"
+          >
+            KKN
+          </Button>
 
           <dl className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[

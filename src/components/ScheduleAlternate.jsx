@@ -12,13 +12,19 @@ const dataPenduduk = [
   { name: 'Memperbaharui Peta Padukuhan dan Titik Google Maps', value: '84' },
   { name: 'Penyuluhan Media Sosial Bagi UMKM', value: '225' },
   { name: 'Sosialisasi Minat Pendidikan Perguruan Tinggi', value: '151' },
-  { name: 'Penyuluhan Bahaya Judi Online dan Pencegahan Penipuan Online', value: '225' },
+  {
+    name: 'Penyuluhan Bahaya Judi Online dan Pencegahan Penipuan Online',
+    value: '225',
+  },
   { name: 'English Happy Club', value: '225' },
   { name: 'Pelatihan Keterampilan Anak: Mozaik Biji', value: '225' },
   { name: 'Aksi Padaan Bersih', value: '225' },
   { name: 'Pendampingan Posyandu Balita dan Lansia', value: '225' },
   { name: 'Penyelengaraan Pendampingan TPA', value: '225' },
-  { name: 'Edukasi Menabung, Melukis Celengan dan Kreativitas Menghias Celengan', value: '225' },
+  {
+    name: 'Edukasi Menabung, Melukis Celengan dan Kreativitas Menghias Celengan',
+    value: '225',
+  },
   { name: 'Movie Time', value: '225' },
 ]
 
@@ -28,7 +34,7 @@ function DataPendudukGrid() {
       {dataPenduduk.map((item) => (
         <div
           key={item.name}
-          className="space-y-4 bg-white/60 p-6 text-center shadow-xl shadow-green-900/5 backdrop-blur flex items-center justify-center"
+          className="flex items-center justify-center space-y-4 bg-white/60 p-6 text-center shadow-xl shadow-green-900/5 backdrop-blur"
         >
           <h4 className="text-xl font-semibold tracking-tight text-green-900">
             {item.name}
@@ -50,7 +56,10 @@ export function ScheduleAlternate() {
           <h2 className="font-display text-4xl font-medium tracking-tighter text-green-600 sm:text-5xl">
             Program Kerja
           </h2>
-          <p className="mt-4 font-display text-2xl tracking-tight text-green-900">
+          <p
+            className="mt-4 text-justify font-display
+          text-lg tracking-tight text-green-900 sm:text-left sm:text-2xl"
+          >
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, modi!
           </p>
         </div>

@@ -25,7 +25,9 @@ export function HeaderAlternate() {
           </div>
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-          <Button className="bg-green-600 hover:bg-green-500" href="/">Dukuh</Button>
+          <Button className="bg-green-600 hover:bg-green-500" href="/">
+            Padukuhan
+          </Button>
         </div>
       </Container>
     </header>

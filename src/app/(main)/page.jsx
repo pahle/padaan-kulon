@@ -7,6 +7,7 @@ import { Container } from '@/components/Container'
 import { BackgroundImage } from '@/components/BackgroundImage'
 import Image from 'next/image'
 import { Header } from '@/components/Header'
+import Map from '@/components/Map'
 
 export default function Home() {
   return (
@@ -19,19 +20,15 @@ export default function Home() {
             <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
               Sambutan Bapak Dukuh
             </h2>
-            <div className="mt-4 flex flex-col font-display text-lg sm:text-2xl tracking-tight text-blue-900">
+            <div className="mt-4 flex flex-col font-display text-lg tracking-tight text-blue-900 sm:text-2xl">
               <div>
-                <p className="max-w-[] font-display">
+                <p className="max-w-[] text-justify font-display sm:text-left">
                   <span className="text-3xl font-bold">&ldquo;</span>
                   <strong>Assalamu Alaikum Warohmatullahi Wabarakatu.</strong>
                   <br />
-                  Website ini hadir sebagai wujud transformasi dukuh Kersik
-                  menjadi dukuh yang mampu memanfaatkan teknologi informasi dan
-                  komunikasi, terintegrasi kedalam sistem online. Keterbukaan
-                  informasi publik, pelayanan publik dan kegiatan perekonomian
-                  di dukuh, guna mewujudkan dukuh Kersik sebagai dukuh wisata yang
-                  berkelanjutan, adaptasi dan mitigasi terhadap perubahan iklim
-                  serta menjadi dukuh yang mandiri.
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic
+                  tempore deleniti commodi, odit voluptates magnam. Rem
+                  voluptatibus distinctio incidunt ea.
                   <span className="text-3xl font-bold">&rdquo;</span>
                 </p>
               </div>
@@ -50,48 +47,7 @@ export default function Home() {
           </Container> */}
         </div>
       </section>
-      <section id="schedule" aria-label="Schedule" className="py-20 sm:py-32">
-        <Container className="relative z-10">
-          <div className=" lg:mx-0 lg:w-full lg:pr-0">
-            <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
-              Peta Dukuh
-            </h2>
-            {/* <div className="mt-4 flex flex-col font-display text-2xl tracking-tight text-blue-900">
-              <div>
-                <p className="max-w-[] font-display">
-                  <span className="text-3xl font-bold">&ldquo;</span>
-                  <strong>Assalamu Alaikum Warohmatullahi Wabarakatu.</strong>
-                  <br />
-                  Website ini hadir sebagai wujud transformasi dukuh Kersik
-                  menjadi dukuh yang mampu memanfaatkan teknologi informasi dan
-                  komunikasi, terintegrasi kedalam sistem online. Keterbukaan
-                  informasi publik, pelayanan publik dan kegiatan perekonomian
-                  di dukuh, guna mewujudkan dukuh Kersik sebagai dukuh wisata yang
-                  berkelanjutan, adaptasi dan mitigasi terhadap perubahan iklim
-                  serta menjadi dukuh yang mandiri. <br />
-                  Terima kasih kepada semua pihak yang telah banyak memberi
-                  dukungan dan kontribusi baik berupa tenaga, pikiran dan
-                  semangat, terkhusus kepada Pertamina Hulu Kalimantan Timur
-                  (PHKT) dengan bantuan CSRnya sehingga website ini dapat
-                  terealisasi.
-                  <span className="text-3xl font-bold">&rdquo;</span>
-                </p>
-              </div>
-              <div className="mt-4">
-                <p className="font-bold">Yuliyana</p>
-                <p>Bapak Dukuh</p>
-              </div>
-            </div> */}
-          </div>
-        </Container>
-        <div className="relative mt-14 sm:mt-24">
-          {/* <BackgroundImage position="right" className="-bottom-32 -top-40" /> */}
-          {/* <Container className="relative">
-            <ScheduleTabbed />
-            <ScheduleStatic />
-          </Container> */}
-        </div>
-      </section>
+      <Map />
       <Speakers />
       <Schedule />
       <section id="schedule" aria-label="Schedule" className="py-20 sm:py-32">
@@ -100,34 +56,37 @@ export default function Home() {
             <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
               Kebudayaan Desa
             </h2>
-            <div className="mt-4 font-display text-lg sm:text-2xl tracking-tight text-blue-900">
+            <div className="mt-4 text-justify font-display text-lg tracking-tight text-blue-900 sm:text-left sm:text-2xl">
               <h3 className="text-3xl font-bold">Ndolalak Munggang</h3>
               <p className="mt-4">
                 Ndolalak Munggang adalah kesenian tari yang berasal dari
-                Padukuhan Padaan Kulon, Kulon Progo, DI Yogyakarta, yang berdiri
-                pada Jumat, 1 Januari 1971. Nama &quot;Ndolalak&quot; berarti
-                tarian, sementara &quot;Munggang&quot; adalah julukan tempat
-                tersebut. Kesenian ini telah diakui melalui akta yang
-                diterbitkan oleh Dinas Kebudayaan DI Yogyakarta. Pementasan
-                Ndolalak Munggang biasanya terdiri dari 1 hingga 6 rodat (babak)
-                dengan durasi sekitar 20 menit per rodat, diiringi lagu-lagu
-                shalawat dan lagu Jawa yang telah ditentukan tariannya. Awalnya
-                menggunakan alat musik tradisional seperti beduk, bende,
-                kendang, dan terbang, kini kesenian ini telah menambahkan alat
-                musik modern seperti organ, gitar, dan ketipung. Pelaku kesenian
-                ini, baik penari maupun wiyaga (pemegang alat musik), berasal
-                dari Padukuhan Padaan Kulon dan sekitarnya seperti Padaan Wetan,
-                Kliwonan, dan Semawung, dengan partisipasi didasari minat dan
-                semangat belajar bersama tanpa seleksi khusus. Upaya pelestarian
-                dilakukan dengan variasi gerakan tari dan lagu serta modernisasi
-                alat musik untuk menarik minat penari dan penonton, menjaga
-                keberlanjutan Ndolalak Munggang sebagai warisan budaya.
+                Padukuhan Padaan Kulon, yang berdiri pada Jumat, 1 Januari 1971.
+                Nama &quot;Ndolalak&quot; berarti tarian, sementara
+                &quot;Munggang&quot; adalah julukan tempat tersebut. Kesenian
+                ini telah diakui melalui akta yang diterbitkan oleh Dinas
+                Kebudayaan DI Yogyakarta.
+                <br /> <br />
+                Pementasan Ndolalak Munggang biasanya terdiri dari 1 hingga 6
+                rodat (babak) dengan durasi sekitar 20 menit per rodat, diiringi
+                lagu-lagu shalawat dan lagu Jawa yang telah ditentukan
+                tariannya. Awalnya menggunakan alat musik tradisional seperti
+                beduk, bende, kendang, dan terbang, kini kesenian ini telah
+                menambahkan alat musik modern seperti organ, gitar, dan
+                ketipung. Pelaku kesenian ini, baik penari maupun wiyaga
+                (pemegang alat musik), berasal dari Padukuhan Padaan Kulon dan
+                sekitarnya seperti Padaan Wetan, Kliwonan, dan Semawung, dengan
+                partisipasi didasari minat dan semangat belajar bersama tanpa
+                seleksi khusus.
+                <br /> <br />
+                Upaya pelestarian dilakukan dengan variasi gerakan tari dan lagu
+                serta modernisasi alat musik untuk menarik minat penari dan
+                penonton, menjaga keberlanjutan Ndolalak Munggang sebagai
+                warisan budaya.
               </p>
             </div>
           </div>
         </Container>
         <div className="relative mt-14">
-          <BackgroundImage position="right" className="-bottom-32 -top-40" />
           <Container className="relative">
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
               <Image
@@ -164,7 +123,7 @@ export default function Home() {
             <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
               Potensi Desa
             </h2>
-            <div className="mt-4 font-display text-lg sm:text-2xl tracking-tight text-blue-900">
+            <div className="mt-4 text-justify font-display text-lg tracking-tight text-blue-900 sm:text-left sm:text-2xl">
               <h3 className="text-3xl font-bold">Durian & Gula Merah</h3>
               <p className="mt-4">
                 Desa Padaan Kulon memiliki potensi unggulan dalam hasil
@@ -174,11 +133,14 @@ export default function Home() {
                 penggemar buah tropis tersebut. Selain itu, produksi gula merah
                 juga menjadi andalan masyarakat desa, dihasilkan dari pengolahan
                 nira kelapa secara tradisional yang tetap mempertahankan cita
-                rasa autentik. Potensi durian dan gula merah ini tidak hanya
-                mendukung perekonomian lokal tetapi juga menarik minat wisatawan
-                yang ingin merasakan langsung keunikan dan kelezatan produk
-                desa, sekaligus memberikan peluang untuk mengembangkan desa
-                sebagai destinasi agrowisata yang berkelanjutan.
+                rasa autentik.
+                <br />
+                <br />
+                Potensi durian dan gula merah ini tidak hanya mendukung
+                perekonomian lokal tetapi juga menarik minat wisatawan yang
+                ingin merasakan langsung keunikan dan kelezatan produk desa,
+                sekaligus memberikan peluang untuk mengembangkan desa sebagai
+                destinasi agrowisata yang berkelanjutan.
               </p>
             </div>
           </div>
