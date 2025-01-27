@@ -101,8 +101,8 @@ export default function Home() {
       </section>
       <SpeakersAlternate />
       <ScheduleAlternate />
-      <Sponsors />
-      <Newsletter />
+      {/* <Sponsors />
+      <Newsletter /> */}
     </>
   )
 }

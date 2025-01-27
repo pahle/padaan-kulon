@@ -329,8 +329,6 @@ export default function Home() {
           </Container>
         </div>
       </section>
-      <Sponsors />
-      <Newsletter />
     </>
   )
 }
