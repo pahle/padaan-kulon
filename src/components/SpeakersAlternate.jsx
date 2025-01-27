@@ -108,50 +108,13 @@ const days = {
   ],
 }
 
-function ImageClipPaths({ id, ...props }) {
-  return (
-    <svg aria-hidden="true" width={0} height={0} {...props}>
-      <defs>
-        <clipPath id={`${id}-0`} clipPathUnits="objectBoundingBox">
-          <path d="M0,0 h0.729 v0.129 h0.121 l-0.016,0.032 C0.815,0.198,0.843,0.243,0.885,0.243 H1 v0.757 H0.271 v-0.086 l-0.121,0.057 v-0.214 c0,-0.032,-0.026,-0.057,-0.057,-0.057 H0 V0" />
-        </clipPath>
-        <clipPath id={`${id}-1`} clipPathUnits="objectBoundingBox">
-          <path d="M1,1 H0.271 v-0.129 H0.15 l0.016,-0.032 C0.185,0.802,0.157,0.757,0.115,0.757 H0 V0 h0.729 v0.086 l0.121,-0.057 v0.214 c0,0.032,0.026,0.057,0.057,0.057 h0.093 v0.7" />
-        </clipPath>
-        <clipPath id={`${id}-2`} clipPathUnits="objectBoundingBox">
-          <path d="M1,0 H0.271 v0.129 H0.15 l0.016,0.032 C0.185,0.198,0.157,0.243,0.115,0.243 H0 v0.757 h0.729 v-0.086 l0.121,0.057 v-0.214 c0,-0.032,0.026,-0.057,0.057,-0.057 h0.093 V0" />
-        </clipPath>
-      </defs>
-    </svg>
-  )
-}
-
 export function SpeakersAlternate() {
-  let id = useId()
-  let [tabOrientation, setTabOrientation] = useState('horizontal')
-
-  useEffect(() => {
-    let lgMediaQuery = window.matchMedia('(min-width: 1024px)')
-
-    function onMediaQueryChange({ matches }) {
-      setTabOrientation(matches ? 'vertical' : 'horizontal')
-    }
-
-    onMediaQueryChange(lgMediaQuery)
-    lgMediaQuery.addEventListener('change', onMediaQueryChange)
-
-    return () => {
-      lgMediaQuery.removeEventListener('change', onMediaQueryChange)
-    }
-  }, [])
-
   return (
     <section
       id="speakers"
       aria-labelledby="speakers-title"
       className="py-20 sm:py-32"
     >
-      <ImageClipPaths id={id} />
       <Container>
         <div className="mx-auto max-w-[] lg:mx-0">
           <h2
@@ -176,7 +139,6 @@ export function SpeakersAlternate() {
         <Tab.Group
           as="div"
           className="mt-14 grid grid-cols-1 items-start gap-x-8 gap-y-8 sm:mt-16 sm:gap-y-16 lg:mt-24 lg:grid-cols-4"
-          vertical={tabOrientation === 'vertical'}
         >
           {days.speakers.map((speaker, speakerIndex) => (
             <div key={speakerIndex}>
@@ -189,10 +151,7 @@ export function SpeakersAlternate() {
                     ],
                   )}
                 />
-                <div
-                  className="absolute inset-0 bg-indigo-50"
-                  style={{ clipPath: `url(#${id}-${speakerIndex % 3})` }}
-                >
+                <div className="absolute inset-0 bg-indigo-50">
                   <Image
                     className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110"
                     src={speaker.image}
