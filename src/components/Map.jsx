@@ -56,9 +56,6 @@ const Map = () => {
         `<b>${feature.properties.role}</b><br/>${feature.properties.name}`,
       ) // Popup for all features
     }
-    if (feature.properties?.name) {
-      layer.bindPopup(`<b>${feature.properties.name}</b>`) // Popup for all features
-    }
   }
 
   // Handle search input change
