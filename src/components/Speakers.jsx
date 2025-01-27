@@ -25,36 +25,56 @@ import rinaldoBeynonImage from '@/images/avatars/rinaldo-beynon.jpg'
 import ronniCantadoreImage from '@/images/avatars/ronni-cantadore.jpg'
 import stevenMchailImage from '@/images/avatars/steven-mchail.jpg'
 import waylonHydenImage from '@/images/avatars/waylon-hyden.jpg'
+import dukuhImage from '@/images/avatars/dukuh.jpeg'
+import bpKalImage from '@/images/avatars/bpkal.jpeg'
+import rw09Image from '@/images/avatars/rw-09.jpeg'
+import rw10Image from '@/images/avatars/rw-10.jpeg'
 import rt19Image from '@/images/avatars/rt-19.jpeg'
 import rt20Image from '@/images/avatars/rt-20.jpeg'
 import rt21Image from '@/images/avatars/rt-21.jpeg'
+import rt22Image from "@/images/avatars/rt-22.jpeg"
 
 const days = {
   speakers: [
     {
       name: 'Yuliyana',
       role: 'Bapak Dukuh',
-      image: stevenMchailImage,
+      image: dukuhImage,
     },
     {
-      name: 'Jaquelin Isch',
+      name: 'Semi',
+      role: 'BP. Kal',
+      image: bpKalImage,
+    },
+    {
+      name: 'Mardiyanto',
+      role: 'RW 09',
+      image: rw09Image,
+    },
+    {
+      name: 'Suharna',
+      role: 'RW 10',
+      image: rw10Image,
+    },
+    {
+      name: 'Panut',
       role: 'RT 19',
       image: rt19Image,
     },
     {
-      name: 'Dianne Guilianelli',
+      name: 'Sukidal',
       role: 'RT 20',
       image: rt20Image,
     },
     {
-      name: 'Ronni Cantadore',
+      name: 'Suroyo',
       role: 'RT 21',
       image: rt21Image,
     },
     {
-      name: 'Erhart Cockrin',
+      name: 'Mutakin',
       role: 'RT 22',
-      image: erhartCockrinImage,
+      image: rt22Image,
     },
     // {
     //   name: 'Parker Johnson',
@@ -114,7 +134,7 @@ export function Speakers() {
             id="speakers-title"
             className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
           >
-            Struktur Organisasi
+            Struktur Padukuhan
           </h2>
           <p className="mt-4 font-display text-lg sm:text-2xl tracking-tight text-blue-900">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
