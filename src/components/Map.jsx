@@ -117,23 +117,44 @@ const Map = () => {
             </button>
           </div>
           <div className="overflow-hidden rounded-lg shadow-lg">
-            <MapContainer
-              center={[-7.673, 110.247]} // Center of the map
-              zoom={15.5} // Initial zoom level
-              style={{ height: '80vh', width: '100%' }}
-            >
-              <TileLayer
-                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-              />
-              <GeoJSON
-                key={JSON.stringify(filteredData)} // Ensure component re-renders
-                data={filteredData} // Use filtered data here
-                style={style} // Apply styles to LineStrings and Polygons
-                pointToLayer={pointToLayer} // Customize point markers
-                onEachFeature={onEachFeature} // Bind popups
-              />
-            </MapContainer>
+            <div className="hidden sm:block">
+              <MapContainer
+                center={[-7.673, 110.247]} // Center of the map
+                zoom={15.5} // Initial zoom level
+                style={{ height: '80vh', width: '100%' }}
+              >
+                <TileLayer
+                  url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                  attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                />
+                <GeoJSON
+                  key={JSON.stringify(filteredData)} // Ensure component re-renders
+                  data={filteredData} // Use filtered data here
+                  style={style} // Apply styles to LineStrings and Polygons
+                  pointToLayer={pointToLayer} // Customize point markers
+                  onEachFeature={onEachFeature} // Bind popups
+                />
+              </MapContainer>
+            </div>
+            <div className="block sm:hidden">
+              <MapContainer
+                center={[-7.673, 110.247]} // Center of the map
+                zoom={15.4} // Initial zoom level
+                style={{ height: '80vh', width: '100%' }}
+              >
+                <TileLayer
+                  url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                  attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                />
+                <GeoJSON
+                  key={JSON.stringify(filteredData)} // Ensure component re-renders
+                  data={filteredData} // Use filtered data here
+                  style={style} // Apply styles to LineStrings and Polygons
+                  pointToLayer={pointToLayer} // Customize point markers
+                  onEachFeature={onEachFeature} // Bind popups
+                />
+              </MapContainer>
+            </div>
           </div>
         </Container>
       </div>
