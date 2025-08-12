@@ -122,7 +122,7 @@ export function SpeakersAlternate() {
           </h2>
           <p className="mt-4 text-justify font-display text-lg tracking-tight text-green-900 sm:text-left sm:text-2xl">
             Tak kenal maka tak sayang, jadi kenalan dulu yuk! Kami dari kelompok
-            KKN AB.82.066 UPN “Veteran” Yogyakarta, datang ke Padukuhan Padaan
+            KKN AB.83.181 UPN “Veteran” Yogyakarta, datang ke Padukuhan Padaan
             Kulon dengan semangat berbagi dan belajar bersama. Anggota kelompok
             kami beragam, ada yang dari jurusan teknik, ekonomi, hingga ilmu
             sosial. Meskipun latar belakang kami berbeda, kami semua punya
