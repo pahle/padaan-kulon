@@ -70,7 +70,7 @@ export default function Home() {
                   <span className="text-3xl font-bold">&quot;</span>
                   <strong>Assalamualaikum Warahmatullahi Wabarakatuh.</strong>
                   <br />
-                  Sebagai ketua kelompok KKN AB.82.066, saya ingin menyampaikan
+                  Sebagai ketua kelompok KKN AB.83.181, saya ingin menyampaikan
                   rasa terima kasih yang sebesar-besarnya kepada seluruh warga
                   Padukuhan Padaan Kulon yang telah menerima kami dengan begitu
                   hangat dan penuh keakraban. Selama satu bulan ini, kami merasa
